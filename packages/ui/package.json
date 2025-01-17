@@ -6,7 +6,15 @@
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./input": "./src/input.tsx",
+    "./label": "./src/label.tsx",
+    "./select": "./src/select.tsx",
+    "./NavigationsMenu": "./src/NavigationsMenu.tsx",
+    "./mode-toggle": "./src/mode-toggle.tsx",
+    "./theme-provider": "./src/theme-provider.tsx",
+    "./dropdown-menu": "./src/dropdown-menu.tsx",
+    "./sheet": "./src/sheet.tsx",
+    "./collapsible": "./src/collapsible.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -22,8 +30,6 @@
     "@types/react-dom": "18.3.1",
     "typescript": "5.5.4"
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "dependencies": { 
   }
 }
