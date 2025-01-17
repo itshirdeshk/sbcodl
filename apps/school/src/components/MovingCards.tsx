@@ -18,6 +18,7 @@ export function InfiniteMovingCardsDemo() {
       <InfiniteMovingCards
         items={partnerLogos}
         direction="right"
+        
         speed="slow"
       />
     </div>
